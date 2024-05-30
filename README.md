@@ -14,3 +14,5 @@ Prerequisites : AWS Console , Lambda, Boto3 , EC2 Instances , EventBridge(to fir
 
 
 ![image](https://github.com/Navilina/Automated-EC2-Monitor-Restart/assets/136193317/e0d0f1bc-7c39-4af9-87e6-33b5874e7f3c)
+
+
