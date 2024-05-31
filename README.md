@@ -8,7 +8,7 @@ Project: Automated EC2 Instance Monitoring and Restart System
 
 •	Impact: Enhanced system reliability and minimize downtime by automatically restarting instances found in a stopped state, supporting production systems.
 
-Scenario : You have EC2 instances keep getting stopped and you will need someone to restart the instances if its stopped after checking the status of the EC2 instances.
+Scenario : You have EC2 instances thats keep getting stopped and you will need someone to restart the instances (automated) - if its stopped after checking the status of the EC2 instances.The function execution role declared will push to check the status of EC2 and restart them if status = stopped
 
 Prerequisites : AWS Console , Lambda, Boto3 , EC2 Instances , EventBridge(to fire the function every hour or whatever time needed)
 
